@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="Logo.png" alt="imagen de alura">
+            <h1 class="h1">Encriptador de texto Alura<h1>
+
+        </header>
+        <main>
+            <section class="seccion1">
+                <textarea class="area" style="text-transform:lowercase;" placeholder="Ingrese el texto aqui"></textarea>
+
+                <div class="contenedor-botones">
+
+                    <input type="button" class="btn-encriptar" value="Encriptar">
+                    <input type="button" class="btn-desencriptar" value="Desencriptar">
+                </div>
+            </section>
+            <section class="seccion2">
+                <div class="contenedor-munieco">
+                    <img src="Muñeco.png" alt="munieco de alura">
+                </div>
+                <div class="contenedor-h3"
+                <h3>Ninugún mensaje fue encontrado</h3>
+                </div>
+                <div class="contenedor-parrafo">
+                    <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
+
+                <div class="contenedor-resultado">
+                    <h3>Mensaje encriptado:</h3>
+                    <p class="texto-resultado"></p>
+                </div>
+                <div class="contenedor-copiar">
+                    <input type="button" class="btn-copiar" value="Copiar" onclick="copy()">
+
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Elaborado por Rodrigo De Alba Alvisua</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

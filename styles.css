@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f1f1f1;
+}
+header{
+    width: 100%;
+    height: 50px;
+/* background-color: aquamarine; */
+}
+.h1{
+    text-align: center;
+    margin-top: -36px;
+    color: darkblue;
+}
+.h1{
+    text-align: center;
+    margin-top: -36px;
+    color: darkblue;
+}
+main{
+    width: 100%;
+    height: 580px;
+    /*background-color: brown;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+
+    width: 40%;
+    height: 100%;
+    /*background-color: green;*/
+}
+.seccion1{
+    width: 70%;
+}
+.area{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    font-size: 25px;
+}
+.btn-encriptar{
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+
+}
+.btn-desencriptar{
+
+}
+.btn-encriptar, .btn-desencriptar{
+    width: 25%;
+    height: 40px;
+    border-radius: 24px;
+}
+.contenedor-botones{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.seccion2{
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+.contenedor-munieco{
+    width: 100%;
+    height: 60%;
+    padding-top: 19px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.contenedor-h3{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    color: darkblue;
+}
+.contenedor-parrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    color: darkblue;
+}
+.contenedor-resultado{
+    width: 100%;
+    height: 70%;
+    padding: 25px;
+    box-sizing: border-box;
+    color: darkblue;
+}
+.contenedor-copiar{
+    width: 100%;
+    height: 20%;
+    border-radius: 20px;
+}
+.btn-copiar{
+    width: 35%;
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+   /* background-color: darkcyan; */
+    text-align: center;
+    color: darkblue;
+}
+
+.ocultar{
+    display: none;
+    font-weight: bold;
+}
+
